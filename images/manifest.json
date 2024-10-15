@@ -1,0 +1,67 @@
+{
+  "id" : "https://iiiftest.github.io/Test/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in iiiftest/Test project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 440,
+    "id" : "https://iiiftest.github.io/Test/images/linux2/canvas/",
+    "label" : {
+      "none" : [ "linux2" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://iiiftest.github.io/Test/images/linux2/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://iiiftest.github.io/Test/images/linux2/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 14,
+              "height" : 11
+            }, {
+              "width" : 28,
+              "height" : 21
+            }, {
+              "width" : 55,
+              "height" : 42
+            }, {
+              "width" : 110,
+              "height" : 83
+            }, {
+              "width" : 220,
+              "height" : 165
+            }, {
+              "width" : 440,
+              "height" : 330
+            } ],
+            "profile" : "level0",
+            "width" : 440,
+            "id" : "https://iiiftest.github.io/Test/images/linux2",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 330
+          } ],
+          "format" : "image/jpeg",
+          "width" : 440,
+          "id" : "https://iiiftest.github.io/Test/images/linux2/full/max/0/default.jpg",
+          "type" : "Image",
+          "height" : 330
+        },
+        "target" : "https://iiiftest.github.io/Test/images/linux2/canvas/"
+      } ]
+    } ],
+    "height" : 330
+  } ]
+}
